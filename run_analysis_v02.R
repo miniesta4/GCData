@@ -14,13 +14,16 @@ run_analysis <- function() {
  ## Select features mean and std
 	features_mean_std_index <- grep("mean[/(]|std[/(]",features[[2]])
 	features_mean_std_vars <- grep("mean[/(]|std[/(]",features[[2]],value=TRUE)
+ 
+ ## Col classes vector
+	classes <- rep("numeric",561)
 	
 
  ## TEST
  ## Read test sets
 	subject_test <- fread("./test/subject_test.txt")
 	activity_test <- fread ("./test/y_test.txt")
-	x_test <- as.data.table(read.table("./test/X_test.txt"))
+	x_test <- as.data.table(read.table("./test/X_test.txt", colClasses=classes, nrows=2947, comment.char=""))
 
  ## Extract features and give names to variables in test sets
 	setnames(subject_test,"subject_id")
@@ -37,7 +40,7 @@ run_analysis <- function() {
  ## Read training sets
 	subject_train <- fread("./train/subject_train.txt")
 	activity_train <- fread ("./train/y_train.txt")
-	x_train <- as.data.table(read.table("./train/X_train.txt"))
+	x_train <- as.data.table(read.table("./train/X_train.txt", colClasses=classes, nrows=7352, comment.char=""))
 
  ## Extract features and give names to variables in train sets
 	setnames(subject_train, "subject_id")
