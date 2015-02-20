@@ -1,11 +1,23 @@
 # Code book
 *n	Variable	Description	Values*
-1.	activityname	Activity wearing a smartphone (Samsung Galaxy S II) on the waist.	WALKING, WALKINGUPSTAIRS, WALKINGDOWNSTAIRS, SITTING, STANDING, LAYING.
-2.	subjectid	Identifier of the subject who carried out the experiment.	From 1 to 30
-3.	meanactivitysubject-tbodyacc-mean-x	Mean by activity and subject of body acceleration signal in the X axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
-4.	meanactivitysubject-tbodyacc-mean-y	Mean by activity and subject of body acceleration signal in the Y axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
-5.	meanactivitysubject-tbodyacc-mean-z	Mean by activity and subject of body acceleration signal in the Z axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
-6.	meanactivitysubject-tbodyacc-std-x	Mean by activity and subject of body acceleration signal in the X axis direction std (calculated as std of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
+1. activityname
+	Activity wearing a smartphone (Samsung Galaxy S II) on the waist.
+	Values: WALKING, WALKINGUPSTAIRS, WALKINGDOWNSTAIRS, SITTING, STANDING, LAYING.
+2. subjectid
+	Identifier of the subject who carried out the experiment.
+	From 1 to 30.
+3. meanactivitysubject-tbodyacc-mean-x
+	Mean by activity and subject of body acceleration signal in the X axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)
+	Normalized and bounded within [-1,1].
+4. meanactivitysubject-tbodyacc-mean-y
+	Mean by activity and subject of body acceleration signal in the Y axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	
+	Normalized and bounded within [-1,1].
+5. meanactivitysubject-tbodyacc-mean-z
+	Mean by activity and subject of body acceleration signal in the Z axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	
+	Normalized and bounded within [-1,1].
+6. meanactivitysubject-tbodyacc-std-x
+	Mean by activity and subject of body acceleration signal in the X axis direction std (calculated as std of time signals captured at a constant rate of 50 Hz)
+	Normalized and bounded within [-1,1].
 7.	meanactivitysubject-tbodyacc-std-y	Mean by activity and subject of body acceleration signal in the Y axis direction std (calculated as std of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
 8.	meanactivitysubject-tbodyacc-std-z	Mean by activity and subject of body acceleration signal in the Z axis direction std (calculated as std of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
 9.	meanactivitysubject-tgravityacc-mean-x	Mean by activity and subject of gravity acceleration signal in the X axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
