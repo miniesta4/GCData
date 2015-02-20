@@ -1,7 +1,7 @@
 # GCData
 Getting and cleaning data course.
 
-run_analysis script
+## run_analysis script
 
 The script works as follows.
 
