@@ -6,7 +6,6 @@ Getting and cleaning data course.
 The script works as follows.
 
 1.- Merges the training and the test sets to create one data set.
-
 Read activity, subject, test and train sets.
 Set variable names to sets using features to test and train sets.
 For test and train: column bind activity, subject and features vectors.
