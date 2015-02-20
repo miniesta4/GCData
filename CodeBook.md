@@ -1,6 +1,6 @@
 # Code book
 *n	Variable	Description	Values*
-1.	activityname	Activity wearing a smartphone (Samsung Galaxy S II) on the waist.	WALKING, WALKINGUPSTAIRS, WALKINGDOWNSTAIRS, SITTING, STANDING, LAYING
+1.	activityname	Activity wearing a smartphone (Samsung Galaxy S II) on the waist.	WALKING, WALKINGUPSTAIRS, WALKINGDOWNSTAIRS, SITTING, STANDING, LAYING.
 2.	subjectid	Identifier of the subject who carried out the experiment.	From 1 to 30
 3.	meanactivitysubject-tbodyacc-mean-x	Mean by activity and subject of body acceleration signal in the X axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
 4.	meanactivitysubject-tbodyacc-mean-y	Mean by activity and subject of body acceleration signal in the Y axis direction mean (calculated as mean of time signals captured at a constant rate of 50 Hz)	Normalized and bounded within [-1,1].
