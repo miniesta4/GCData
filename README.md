@@ -20,8 +20,8 @@ The result dataset has only mean and std measurements.
 Merge activity labels with the dataset to incluide descriptive activity names.
 
 4.- Appropriately labels the data set with descriptive variable names.  
-Uses grep to give feature names to mean and std variables.
+Uses tolower, gsub and paste0 to give names to mean and std variables.
 
 5.- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.  
 Uses library reshape 2 to melt and cast the previous data set and calculate means.  
-The result is written to table.txt in current directory.
+The result is written to average_ds.txt in working directory.
